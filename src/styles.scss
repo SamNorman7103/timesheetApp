@@ -9,10 +9,23 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     height: calc(100% - 64px);
 }
 
-h2 {
-    text-align: center;
+table {
+    border-collapse: collapse;
 }
 
-.cards {
-    margin: auto;
+th {
+    border-bottom: 1px solid black;
+
+    &:not(:first-child) {
+        padding-left: 15px;
+    }
+}
+
+td {
+    text-align: center;
+    padding: 10px 0px;
+}
+
+tr td {
+    border-bottom:1pt solid #C1C1C1;
 }
