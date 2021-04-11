@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  firebase: {
+  firebaseConfig: {
     apiKey: "AIzaSyD6M-nuXdCqGmF9LSg1pcIsouindOpIyd8",
     authDomain: "sntimesheetapp.firebaseapp.com",
     projectId: "sntimesheetapp",
@@ -13,7 +13,7 @@ export const environment = {
     appId: "1:849565093153:web:0312440094dbffb640c260",
     measurementId: "G-TLKG7W450V"
   }
-};
+}
 
 /*
  * For easier debugging in development mode, you can import the following file
